@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">NoEscape Rooms</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform.
+May horror always guide you. </p>
+    <form id="survey-form">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+      
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      
+      <div>
+        <label for="number">Age (optional)</label>
+        <input type="number" id="number" name="number" placeholder="Age" min=3 max=100>
+      </div>
+
+      <p>Which room did you play?</p>
+      <select name="room" id="dropdown" required>
+        <option value="" disabled selected hidden>Select a room</option>
+        <option value="apocalypse">Apocalypse</option>        
+        <option value="asylum">Asylum</option>
+        <option value="schizos">Schizos</option>
+        <option value="the-dollhouse">The Dollhouse</option>        
+        <option value="the-nightmare">The Nightmare</option>
+      </select>
+
+    <div>
+      <p>Would you recommend this experience?</p>
+      <label><input type="radio" name="recommendation" value="not-sure">Not sure</label>
+      <label><input type="radio" name="recommendation" value="maybe">Maybe</label>
+      <label><input type="radio" name="recommendation" value="definitely">Definitely</label>
+      </div>
+
+     <div>
+       <p>What did you enjoy the most?</p>
+       <select name="favorite-feature" id="favorite-feature" required>
+         <option value="" disabled selected hidden>Select one</option>
+         <option value="puzzles">The Puzzles and Challenges</option>
+         <option value="immersion">The Story and Immersive Setting</option>
+         <option value="acting">The Actors or Game Master's Performance</option>
+         <option value="effects">The Technology and Special Effects</option>
+       </select>
+     </div>
+
+    <div>
+      <p>What could be improved? (Check all that apply)</p>
+      <label><input type="checkbox" value="challenges">Challenges</label>
+      <label><input type="checkbox" value="acting">Acting</label>
+      <label><input type="checkbox" value="storyline">Storyline</label>
+      <label><input type="checkbox" value="theme-design-&-immersion">Theme Design & Immersion</label>
+      <label><input type="checkbox" value="room-ambience">Room Ambience</label>
+      <label><input type="checkbox" value="special-effects">Special Effects</label> <br>
+      <label><input type="checkbox" value="intro">Intro</label>
+      <label><input type="checkbox" value="end-game-wrap-up">End Game Wrap-Up</label>
+      <label><input type="checkbox" value="clue-system">Clue System</label>
+      <label><input type="checkbox" value="physical-safety-&-comfort">Physical Safety & Comfort</label>
+      <label><input type="checkbox" value="customer-service">Customer Service</label>
+    </div>
+
+    <div>
+      <p>Any comments or suggestions?</p>
+      <textarea placeholder="Enter your comments here..." rows="3" cols="30"></textarea>
+    </div>
+
+    <button id="submit">Submit</button>
+
+    </form>
+  </body>
+</html>
+
