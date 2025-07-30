@@ -7,17 +7,7 @@ Features:
 - Five book entries with relevant details
 - Footer row showing the total number of books
 
-[2] Movie Review Page
-
-Purpose: Provides a detailed review of the movie "Rise Beyond".
-
-Features:
-- Title and poster image of the movie
-- Synopsis of the movie's plot
-- Visual star rating
-- Cast members listed with actor and character names
-
-[3] Hotel Feedback Form
+[2] Hotel Feedback Form
 
 Purpose: Collects user feedback after a hotel stay.
 
@@ -29,7 +19,7 @@ Features:
 - Textarea for additional comments
 - Submit button to send the feedback
 
-[4] Lab Event Hub
+[3] Lab Event Hub
 
 Purpose: Displays a list of upcoming and past events.
 
@@ -38,7 +28,7 @@ Features:
 - Upcoming events with dates and descriptions
 - Past events with images, dates, and descriptions
 
-[5] Lab Multimedia Player
+[4] Lab Multimedia Player
 
 Purpose: Provides a multimedia player for audio and video content.
 
@@ -48,7 +38,7 @@ Features:
 - Transcript section explaining the map method
 - Accessibility: Includes aria-label for the audio player and subtitles for the video (though the subtitles file is not provided)
 
-[6] NoEscape Room Survey Form
+[5] NoEscape Room Survey Form
 
 Purpose: Collects user feedback about escape room experiences.
 
